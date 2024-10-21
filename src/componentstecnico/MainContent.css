@@ -1,0 +1,23 @@
+/* MainContent.css */
+.new-client-form-container {
+    display: flex;                   /* Usamos flexbox para centrar */
+    justify-content: center;         /* Centrar horizontalmente */
+    align-items: center;             /* Centrar verticalmente */
+    min-height: 100vh;              /* Asegura que ocupe toda la altura de la ventana */
+    padding: 1rem;                  /* Espacio alrededor del contenedor */
+    background-color: #f0f2f5;      /* Color de fondo opcional */
+}
+
+.new-client-form-container .ant-form {
+    max-width: 600px;               /* Máximo ancho para el formulario */
+    width: 100%;                    /* Ancho completo del contenedor */
+    background-color: #fff;        /* Fondo blanco para el formulario */
+    padding: 2rem;                  /* Espacio interno */
+    border-radius: 8px;            /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.new-client-title {
+    text-align: center;             /* Centrar el título */
+    margin-bottom: 1rem;            /* Espacio debajo del título */
+}
